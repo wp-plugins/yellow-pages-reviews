@@ -25,6 +25,23 @@ Custom OTW Option Styles
 	width: 60px;
 }
 
+.wordimpress-section a.upgrade {
+	background-color: #fedd00;
+	color: #777777;
+	padding: .7em 2em .7em 1.2em;
+	border-radius: 2px;
+	margin: 0 0 2rem 0;
+	text-decoration: none;
+	display: inline-block;
+	float: none;
+	background-position: 120px 13px;
+}
+
+.wordimpress-section a.upgrade:hover {
+	background-color: #edc900;
+	color: #ffffff;
+}
+
 #sunrise-plugin-settings .hndle:hover, #sunrise-plugin-settings h3:hover {
 	cursor: default;
 }

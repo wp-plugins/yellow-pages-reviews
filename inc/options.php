@@ -32,5 +32,13 @@ $yellow_pages_reviews_options = array(
 		'type'  => 'checkbox',
 		'label' => __( 'Yes', $yellow_pages_reviews->textdomain )
 	),
-	array( 'type' => 'closetab' )
+	array( 'type' => 'closetab' ),
+
+//	BUndle Tab
+	    array(
+	        'name' => __('Get More Reviews', $yellow_pages_reviews->textdomain),
+	        'type' => 'opentab'
+	    ),
+		array( 'type' => 'bundle' ),
+	    array('type' => 'closetab'),
 );
