@@ -3,10 +3,11 @@ Contributors: wordimpress, dlocc, webdevmattcrom
 Donate link: http://wordimpress.com/
 Tags: yellow pages, yp, reviews, business reviews, yelp, google, reviews widget, widget
 Requires at least: 3.6
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 1.0.1
+License: GPL2
 
-Yellow Pages Reviews makes it a breeze for you to add reviews to your WordPress website. Displaying review can help boost consumer confidence and conversion rates.
+Yellow Pages Reviews makes it a breeze for you to add reviews to your WordPress website. Displaying business reviews boosts conversion rates.
 
 == Description ==
 
@@ -39,6 +40,14 @@ Use Promo Code: `yp20off` for a 20% discount!
 * Priority Support - Get fast and helpful US-based support from the actual plugin developers. Got a problem? Hit us up.
 * Actively Developed - We are a team of WordPress developers based in San Diego, California and we stand by our work.
 
+= Other Business Reviews Plugins =
+
+Why limit your reviews to just Yellow Pages? Check out our other free business reviews plugins to add to your site as well:
+
+* [Google Places Reviews](https://wordpress.org/plugins/google-places-reviews "Google Places Reviews")
+* [YELP Widget Pro](https://wordpress.org/plugins/yelp-widget-pro "YELP Widget Pro")
+* Get all three of our Premium Business Reviews plugins for one low price. [Premium Business Reviews Bundle](https://wordimpress.com/plugins/business-reviews-bundle/?utm_source=WordPress.org&utm_medium=readme&utm_campaign=Yellow%20Pages%20Repo "Premium Business Reviews Bundle")
+
 == Installation ==
 
 1. Upload the `yellow-pages-reviews` folder and it's contents to the `/wp-content/plugins/` directory or install via the WP plugins panel in your WordPress admin dashboard
@@ -70,6 +79,9 @@ Yes, there are three basic themes included in the free version of the plugin. Th
 3. An admin view of the widget in a WordPress sidebar
 
 4. The plugins settings page found under Settings > YP Reviews
+
+== Upgrade Notice ==
+Versions 1.0.1 is merely cosmetic updates.
 
 == Changelog ==
 
