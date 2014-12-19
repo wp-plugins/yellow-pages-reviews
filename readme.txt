@@ -3,7 +3,7 @@ Contributors: wordimpress, dlocc, webdevmattcrom
 Donate link: http://wordimpress.com/
 Tags: yellow pages, yp, reviews, business reviews, yelp, google, reviews widget, widget
 Requires at least: 3.6
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 1.0.1
 License: GPL2
 
