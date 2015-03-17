@@ -84,6 +84,8 @@ Yes, there are three basic themes included in the free version of the plugin. Th
 Versions 1.0.1 is merely cosmetic updates.
 
 == Changelog ==
+= 1.0.2 =
+* Pulled YPR_Debug out in favor of WP_Debug
 
 = 1.0.1 =
 * Added Activation Banner
