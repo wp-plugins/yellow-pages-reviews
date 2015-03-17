@@ -13,7 +13,7 @@ define( 'YPR_PLUGIN_NAME', 'yellow-pages-reviews' );
 define( 'YPR_PLUGIN_NAME_PLUGIN', plugin_basename( __FILE__ ) );
 define( 'YPR_PLUGIN_PATH', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
 define( 'YPR_PLUGIN_URL', plugins_url( basename( plugin_dir_path( __FILE__ ) ), basename( __FILE__ ) ) );
-define( 'YPR_DEBUG', true );
+define( 'WP_DEBUG', true );
 
 function init_yellow_pages_reviews_widget() {
 
@@ -62,7 +62,7 @@ add_action( 'widgets_init', create_function( '', 'register_widget( "Yellow_Pages
 add_action( 'admin_enqueue_scripts', 'ypr_options_scripts' );
 
 function ypr_options_scripts( $hook ) {
-	$suffix = defined( 'YPR_DEBUG' ) && YPR_DEBUG ? '' : '.min';
+	$suffix = defined( 'WP_DEBUG' ) && WP_DEBUG ? '' : '.min';
 
 	if ( $hook === 'settings_page_yellowpagesreviews' ) {
 		wp_register_style( 'ypr_custom_options_styles', plugin_dir_url( __FILE__ ) . 'assets/css/options' . $suffix . '.css' );

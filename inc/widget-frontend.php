@@ -136,7 +136,7 @@
 //after widget
 echo ! empty( $after_widget ) ? $after_widget : '</div>';
 
-if ( YPR_DEBUG ) {
+if ( WP_DEBUG ) {
 	echo "<pre>";
 	var_dump( $response );
 	echo "</pre>";

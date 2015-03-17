@@ -59,7 +59,7 @@ class Yellow_Pages_Reviews extends WP_Widget {
 	//Load Widget JS Script ONLY on Widget page
 	function add_ypr_admin_widget_scripts( $hook ) {
 
-		$suffix = defined( 'YPR_DEBUG' ) && YPR_DEBUG ? '' : '.min';
+		$suffix = defined( 'WP_DEBUG' ) && WP_DEBUG ? '' : '.min';
 
 		if ( $hook == 'widgets.php' ) {
 
@@ -87,7 +87,7 @@ class Yellow_Pages_Reviews extends WP_Widget {
 	 */
 
 	function add_ypr_widget_scripts() {
-		$suffix = defined( 'YPR_DEBUG' ) && YPR_DEBUG ? '' : '.min';
+		$suffix = defined( 'WP_DEBUG' ) && WP_DEBUG ? '' : '.min';
 
 		//Determine whether to display minified scripts/css or not (debugging true sets it)
 		$ypr_css = plugins_url( 'assets/css/yellow-pages-reviews' . $suffix . '.css', dirname( __FILE__ ) );
@@ -392,7 +392,7 @@ class Yellow_Pages_Reviews extends WP_Widget {
 	 */
 	function enqueue_widget_theme_scripts( $widget_style ) {
 
-		$suffix = defined( 'YPR_DEBUG' ) && YPR_DEBUG ? '' : '.min';
+		$suffix = defined( 'WP_DEBUG' ) && WP_DEBUG ? '' : '.min';
 
 		//Determine which CSS to pull
 		$css_raised  = YPR_PLUGIN_URL . '/assets/css/ypr-theme-raised' . $suffix . '.css';

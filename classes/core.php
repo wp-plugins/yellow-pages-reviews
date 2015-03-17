@@ -113,7 +113,7 @@ if ( ! class_exists( 'YPR_Plugin_Framework' ) ) {
 		 */
 		function register_assets() {
 
-			$suffix = defined( 'YPR_DEBUG' ) && YPR_DEBUG ? '' : '.min';
+			$suffix = defined( 'WP_DEBUG' ) && WP_DEBUG ? '' : '.min';
 
 			wp_register_style( 'core-plugin-framework', plugins_url( 'assets/css/core' . $suffix . '.css', dirname( __FILE__ ) ), false, $this->version, 'all' );
 			wp_register_script( 'core-plugin-framework-form', $this->assets( 'js', 'form.js' ), array( 'jquery' ), $this->version, false );
